@@ -1,0 +1,17 @@
+{
+    "type": "module",
+    "name": "guiProds",
+    "version": "1.0.0",
+    "description": "Una api de productos",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo Error: no test specified  && exit guiProds" 
+    },
+    "keywords": [],
+    "author": "Luciano Amato",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+
+}
