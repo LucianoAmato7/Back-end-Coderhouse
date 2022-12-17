@@ -70,8 +70,6 @@ router.delete('/productos/:id', (req, res) =>{
 })
 
 
-
-
 //INICIAMOS EL SERVIDOR
 // ----------------------------------------------|
 

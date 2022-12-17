@@ -25,9 +25,7 @@ class Api {
 
     }
 
-    prodPorId( newID ){
-
-        let id = Number(newID.slice(1))
+    prodPorId( id ){
 
         let existe = this.productos.some( p => p.id == id )
 
@@ -57,11 +55,9 @@ class Api {
 
     }
 
-    actualizar( prod, newID ){
+    actualizar( prod, id ){
 
-        let id = Number(newID.slice(1))
-
-        prod.id = id
+        prod.id = Number(id)
 
         let index = this.productos.findIndex( prod => prod.id == id)
 
@@ -71,9 +67,7 @@ class Api {
 
     }
 
-    eliminar( newID ){
-
-        let id = Number(newID.slice(1))
+    eliminar( id ){
 
         let existe = this.productos.some( p => p.id == id )
     
